@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(50, 47, 47);
+    margin: 3px;
+    /* width: 50px; */
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+    color: whitesmoke;
+    
+
+}
+
+
+/* .imagesInContainer{
+   border-radius: 20px;
+
+} */
+
+img {
+    margin: 10px;
+    object-fit: cover;
+
+}
+
+.selectedImages {
+    margin: 80px;
+    /* border: 15px solid pink;
+    border-radius: 50%; */
+    /* -webkit-transform: scale(1.5); */
+    /* or some other value */
+    transform: scale(1.2);
+    /* image-rendering: high-quality; */
+    display: block;
+    /* align-items: center;
+    justify-content: center; */
+    /*text-align: center;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.image-container{
+    display: flex;
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+    
+}
+
+.carousel {
+    /* box-shadow: 2px 2px 5px rgba(0,0,0,0.3); */
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
